@@ -10,17 +10,21 @@
 </head>
 
 <body>
-
-  <div class="container">
+     <div class="container for-about">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron text-center" style="background-image: url(https://www.emlab.com/umbracoMedia/1302/emlabpk-bacteria-testing.png); background-size: 100%;">
+        <h1 style="color: white">Belly Button Biodiversity Dashboard</h1>
+        <p style="color: white">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
+      <div class="col-md-12"></div>
+      <dl class="dl-horizontal">
+        <dt>Overview</dt>
+        <dd>This dashboard presents the finding from the experiment where bacteria culture in belly button was examined for various participants. This dynamic dashboard presents top 10 bacteria culture found and total bacteria culture per sample for each participant.</dd>
+      </dl>
       <div class="col-md-2">
-        <div class="well">
+                <div class="well">
           <h5>Test Subject ID No.:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
